@@ -9,6 +9,7 @@
 }
 
 #page{
+    align:center;
     margin: 88px;
     bottom: 124px;
 }
@@ -28,6 +29,11 @@ h2{
 h1, h2 {
     font-weight: Bold;
     color: #1b1b1b;
+}
+
+#historia{
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .headline{
@@ -51,27 +57,38 @@ h1, h2 {
 p{
     font-size: 16px;
     line-height: 22px;
-    color: #333333;
+    color: #1b1b1b;
     font-weight: regular;
     margin-top: 8px
 }
 
-ul li::marker {
-    font-weight: Bold;
-    color: #333333;
-  }
-
-.lista1, .lista2{
+.lista-titulo {
     font-weight: bold;
+    margin-bottom: 4px;
+    color: #1b1b1b;
 }
 
-.lista1 li{
-    color: #0c51a7;
+
+.lista1 li, .lista2 li {
+    font-weight: bold;
+    list-style-type: disc;
+    list-style-position: inside; 
+    padding-left: 0;             
+    margin-left: 0;
+}
+
+.lista1 li::marker, .lista2 li::marker {
+    color: #333333;
+}
+
+
+.item {
+    color: #0C51a7; 
 }
 
 .lista2 {
     list-style-type: disc;
-    padding-left: 20px;    
+    padding-left: 0px;   
 }
 
 .lista2 li::marker {
@@ -96,6 +113,8 @@ img{
     box-sizing: border-box;
     width: 100%;
     height: 0%;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .divider {
