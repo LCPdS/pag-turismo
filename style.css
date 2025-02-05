@@ -123,3 +123,9 @@ img{
     margin: 36px 0;
     background-color: #d9d9d9;
   }
+
+footer {
+    text-align: center;
+    color: #696969;
+    padding-bottom: 48px;
+}
